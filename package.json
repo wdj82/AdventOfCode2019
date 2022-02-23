@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "devDependencies": {
+        "eslint": "^8.3.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.3"
+    },
+    "name": "advent-2015",
+    "description": "",
+    "version": "1.0.0",
+    "author": "William Jones",
+    "license": "MIT"
+}
