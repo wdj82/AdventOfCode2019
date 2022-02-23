@@ -10,8 +10,12 @@ function requiredFuel(mass) {
     return fuel + requiredFuel(fuel);
 }
 
-function calculateTotalFuel() {
-    return inputArray.reduce((totalMass, currentMass) => (totalMass += requiredFuel(currentMass)), 0);
-}
+let totalMass = 0;
+let totalFuel = 0;
+inputArray.forEach((mass) => {
+    totalMass += Math.floor(mass / 3) - 2;
+    totalFuel += requiredFuel(mass);
+});
 
-console.log(calculateTotalFuel());
+document.getElementById('partOne').appendChild(document.createTextNode(totalMass));
+document.getElementById('partTwo').appendChild(document.createTextNode(totalFuel));
