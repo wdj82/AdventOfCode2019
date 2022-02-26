@@ -1,5 +1,5 @@
 // import {rawInput} from './input.js';
-// import {exampleInput} from './input.js';
+// import {exampleInput as rawInput} from './input.js';
 
 const partOne = 'dunno';
 const partTwo = 'dunno';
