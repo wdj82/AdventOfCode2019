@@ -1,4 +1,4 @@
-const rawInput = `6CF)4J7
+6CF)4J7
 RC4)H87
 LMS)RL4
 KGS)1QW
@@ -1269,32 +1269,4 @@ QF1)HQ3
 49V)4BW
 Y3R)DJF
 4HL)641
-FYC)PGC`;
-
-const exampleInput = `COM)B
-B)C
-C)D
-D)E
-E)F
-B)G
-G)H
-D)I
-E)J
-J)K
-K)L`;
-
-const exampleInput2 = `COM)B
-B)C
-C)D
-D)E
-E)F
-B)G
-G)H
-D)I
-E)J
-J)K
-K)L
-K)YOU
-I)SAN`;
-
-export { rawInput, exampleInput, exampleInput2 };
+FYC)PGC
