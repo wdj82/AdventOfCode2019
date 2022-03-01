@@ -1,6 +1,6 @@
 import { rawInput } from './input.js';
 // import { exampleInput as rawInput } from './input.js';
-import InterCode from './InterCode.js';
+import IntCode from './IntCode.js';
 
 const program = rawInput.split(',').map(Number);
 
@@ -39,11 +39,11 @@ function getPermutations(array) {
 // inputting the output into the next until the last one has finished
 function runAmplifiers(phaseSettings) {
     const amplifiers = [
-        new InterCode('A', program, phaseSettings[0]),
-        new InterCode('B', program, phaseSettings[1]),
-        new InterCode('C', program, phaseSettings[2]),
-        new InterCode('D', program, phaseSettings[3]),
-        new InterCode('E', program, phaseSettings[4]),
+        new IntCode('A', program, phaseSettings[0]),
+        new IntCode('B', program, phaseSettings[1]),
+        new IntCode('C', program, phaseSettings[2]),
+        new IntCode('D', program, phaseSettings[3]),
+        new IntCode('E', program, phaseSettings[4]),
     ];
 
     // first input is 0

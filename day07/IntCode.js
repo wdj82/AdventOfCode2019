@@ -1,4 +1,4 @@
-class InterCode {
+class IntCode {
     constructor(name, program, input, debug = false) {
         this.name = name;
         this.input = input;
@@ -185,4 +185,4 @@ class InterCode {
     }
 }
 
-export default InterCode;
+export default IntCode;
